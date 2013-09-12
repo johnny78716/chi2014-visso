@@ -114,6 +114,34 @@ Another approach using augmented reality system to assist hearing impaired visua
 
 In conclusion, many related works had been done previously to report the usability and performances of visual and tactile devices. However, most of them are aimed to provide directional information solely for navigation purposes. Others proposed application for helping the deaf improve their acoustic awareness with certain types of device, but they are only applicable on certain parts of the body location. There are no comprehensive comparison and evaluation between all the possible interfaces and display methods of sound source localization for people with hearing loss.
 
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=2.0\columnwidth]{glasses_pattern_combine}
+\caption{LED glasses pattern schemes.}
+\label{fig:glasses_scheme}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=2.0\columnwidth]{hat_pattern_combine}
+\caption{LED cap pattern schemes.}
+\label{fig:cap_scheme}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=2.0\columnwidth]{smartwatch_pattern_combine}
+\caption{Smartwatch pattern schemes.}
+\label{fig:smartwatch_scheme}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=2.0\columnwidth]{vibration_pattern_combine}
+\caption{Vibration devices pattern schemes.}
+\label{fig:vibratin_scheme}
+\end{figure*}
+
 \section{Choosing of Wearable Visual Accessories}
 There has been numerous reports shown that congenitally deaf and hard-of-hearing people have enhanced ability to capture more visual activity in the peripheral visual field than normal hearing individuals \cite{Bavelier2000,Dye2009}. In previous studies, experimentation were carried out to compare deaf and hearing group in performance of both their peripheral and central visual attention; participants are asked to click a button in response when a periphery or central stimuli is presented. The deaf individuals exhibit enhanced performance, in terms of faster reaction time and higher accuracy rate, for tasks performed in the visual periphery. And this effect is even more evident when subjects are adolescents \cite{Codina2011a,Codina2011}.
 
@@ -126,36 +154,38 @@ We have focused on three type of accessories: hat, belt, and watch. The shape of
 
 \section{Prototype and Pattern Design}
 
-\subsection{Visual Devices}
-Three types of accessories are used to implement in visual display: glasses, baseball cap, and smartwatch. Due to the shape and size of each device are distinctively different, it would be difficult to design just one or same types of display pattern to fit on all devices. As a result, three different types of encoded cues are designed for each accessory at the beginning (see Table~\ref{tab:pattern_chart}). However, except for smartwatch which uses its native display panel and runs a micro App to display directional imagery, the glasses and baseball cap are both equipped with multiple yellow-greenish LEDs to indicate the direction of a sound source. Device detail and design patterns are described.
+Each prototype devices is designed to convey signals in eight directions corresponding to user's position. This was proposed in \cite{Tessendorf2011} to minimizes the perceptual error. A set of visual and vibro-tactile encoding schemes suitable for directional pointing of target angles in the complete 360$^\circ$-range are mapped out and shown in figure \ref{fig:glasses_scheme} to \ref{fig:vibratin_scheme}.
 
-\begin{figure}[!t]
+\subsection{Visual Devices}
+Three types of accessories are used to implement in visual display: glasses, baseball cap, and smartwatch. Due to the shape and size of each device are distinctively different, it would be difficult to design just one or same types of display pattern to fit on all devices. As a result, three different types of encoded cues are designed for each accessory at the beginning. However, except for smartwatch which uses its native display panel and runs a micro App to display directional imagery, the glasses and baseball cap are both equipped with multiple yellow-greenish LEDs to indicate the direction of a sound source. Device detail and design patterns are described.
+
+\begin{figure}[!b]
 \centering
 \includegraphics[width=0.9\columnwidth]{glasses_4}
 \caption{LED glasses.}
 \label{fig:glasses}
 \end{figure}
 
-\begin{figure}[!t]
+\begin{figure}[!b]
 \centering
 \includegraphics[width=0.9\columnwidth]{cap_4}
 \caption{Lighting cap.}
 \label{fig:cap}
 \end{figure}
 
-\begin{figure}[!t]
+\begin{figure}[!b]
 \centering
 \includegraphics[width=0.9\columnwidth]{smartwatch_4}
 \caption{Smartwatch.}
 \label{fig:watch}
 \end{figure}
 
-\begin{table}
-\centering
-\includegraphics[width=\columnwidth]{pattern_chart}
-\caption{A list of devices and names of each designed pattern.}
-\label{tab:pattern_chart}
-\end{table}
+%\begin{table}
+%\centering
+%\includegraphics[width=\columnwidth]{pattern_chart}
+%\caption{A list of devices and names of each designed pattern.}
+%\label{tab:pattern_chart}
+%\end{table}
 
 \subsubsection{Glasses}
 To perform complex display patterns, a high density LEDs setup is installed around the glasses frame. We use a regular lensless glasses as the base of the prototype (see Figure~\ref{fig:glasses}). Small holes were drilled around its frame in order to install LEDs. Electrical wires are connected to the LEDs and strapped around the frame rims and bundled alongside the temples (see Figure~\ref{fig:glasses}). There are 28 LEDs in total (14 on each side of the glasses), and they are evenly distributed across the frame rims in a circular formation. The tip of LEDs are bent inward to point at the user's eyes so the light can be seen easily while emitting.
@@ -180,7 +210,7 @@ Using different designs of imagery, we proposed three types of representation of
 
 \subsection{Tactile Devices}
 Four accessories are designed to perform experiment: hat, belt, wristband, and armband. 
-We evaluated a wide range of vibrators and selected coin-shaped vibrators with a diameter of 10 mm (310-103 Vibration Motor 2.7 mm Button Type from Precision Microdrives) that have been developed for vibro-tactile feedback in hand-held applications. In order to clearly distinguish each individual vibrator and prevent misinterpretation, isolating shock waves between each vibrators is fairly important. Since the shape and vibrator arrangement of all tactile devices are similar, all of the designed patterns for tactual sense are suitable for every device. Therefore, the patters will be lastly introduced after device description. See Table~\ref{tab:pattern_chart}.
+We evaluated a wide range of vibrators and selected coin-shaped vibrators with a diameter of 10 mm (310-103 Vibration Motor 2.7 mm Button Type from Precision Microdrives) that have been developed for vibro-tactile feedback in hand-held applications. In order to clearly distinguish each individual vibrator and prevent misinterpretation, isolating shock waves between each vibrators is fairly important. Since the shape and vibrator arrangement of all tactile devices are similar, all of the designed patterns for tactual sense are suitable for every device. Therefore, the patters will be lastly introduced after device description.
 
 \begin{figure}[!b]
 \centering
@@ -270,11 +300,11 @@ The experiment for tactile devices consist of 12 tests (3 cue types x 4 devices)
 \end{figure}
 
 \subsection{Experiment 1A Result: Visual Display}
-Unlike tactile devices, the patterns designed between each wearable visual device are irrelevant to each other. Hence the result for each device is discussed separately. Figures~\ref{fig:Visual_ER} and~\ref{fig:Visual_RT} summarize the detection results of Experiment 2. Both first and second pattern of smartwatch has gotten 0\% error rate. Although the third pattern has an error rate of 0.63\% higher than others, it is still considerably low. Surprisingly, the response time for third pattern of smartwatch is the shortest (2114 ms); about half a second faster than the others. Few participants stated that the distinctive size of the indication arrow makes it easier to identify. And overall, smartwatch has the lowest error rate among all devices (from 0\% to 0.63\%, average of 0.21\%), whereas in contrast, LED cap obtained the highest error from 3.75\% to 5.63\%.
+Unlike tactile devices, the patterns designed between each wearable visual device are irrelevant to each other. Hence the result for each device is discussed separately. Figures~\ref{fig:Visual_ER} and~\ref{fig:Visual_RT} summarize the detection results of Experiment 1A. Both first and second pattern of smartwatch has gotten 0\% error rate. Although the third pattern has an error rate of 0.63\% higher than others, it is still considerably low. Surprisingly, the response time for third pattern of smartwatch is the shortest (2114 ms); about half a second faster than the others. This difference is confirmed by repeated-measured ANOVA (RMANOVA), F(2.8)=11.563, P\textless0.05. Few participants stated that the distinctive size of the indication arrow makes it easier to identify. And overall, smartwatch has the lowest error rate among all devices whereas in contrast, LED cap obtained the highest.
 
-The error rate of pattern three for glasses is noticeably higher than the others (9.09\%), but the first pattern is only 0.63\%. In terms of detection time, the third pattern is highly significant (F(8,81)=6.340, p=0). The response time is almost doubled (3519 ms, p\textless.0001) in comparison with the first. Stated by two of the participants: \textquotedblleft First pattern of the glasses is sufficient and clear, and the animation used in the third pattern is time consuming and sometimes confusing.\textquotedblright
+The error rate of pattern three for glasses is noticeably higher than the others (9.09\%), but the first pattern is only 0.63\%. However, RMANOVA shows no significant difference in between the three. In terms of detection time, there was a statistically significant difference, F(2,8)=24.470, p\textless0.05. The response time for pattern three exceeded the first by almost 1500 ms. This result match with the statement from two of the participants: \textquotedblleft First pattern of the glasses is sufficient and clear, and the animation used in the third pattern is time consuming and sometimes confusing.\textquotedblright
 
-Error rates of the first and second pattern for cap are the same, both at a rate of 3.75\%. Even though the third is a bit higher (5.63\%) than the rest, the response time for third pattern is however the shortest among the three at 2187 ms. Most participants said the first single blinking pattern is enough and better than the second, and few of them mentioned that the difference between the two methods showing backward directions are unnoticeable. Overall, by the scale of preferences, cap is shown the most preferred and glasses were the least. Although error rate of the glasses is a bit lower than cap, half of the participants reported that they find the blinking of LED in front of their eyes is uncomfortable.
+Error rates of the first and second pattern for cap are the same, both at a rate of 3.75\%. Even though the third is a bit higher (5.63\%) than the rest, the response time for third pattern is however the shortest among the three at 2187 ms. RMANOVA shows a significant difference of response time (F(2,8)=7.006, P\textless0.05) among the three but not error rate. Most participants said the first single blinking pattern is enough and better than the second, and few of them mentioned that the difference between the two methods showing backward directions are unnoticeable. Overall, by the scale of preferences, cap is voted the most preferred whereas glasses are the least. Although error rate of the glasses is a bit lower than cap, half of the participants reported that the blinking LEDs in front of their eyes makes them uncomfortable.
 
 \subsection{Experiment 1A Conclusion}
 The performance of the smartwatch is relatively high in terms of high accuracy. Since the smartwatch use simple imagery to display directional information, it is fairly easy for users to understand at a glance. We also discovered that when using relative positioning and referential sizing of icons to present directional information will raise the efficiency and intuitiveness for users to determine.
@@ -329,29 +359,29 @@ The procedure in experiment 2 is similar to experiment 1, except that participan
 
 As the previous experiment, 16 trials of randomly generated tasks are presented in each test. Participants are given 90 seconds to memorize the cue patterns. When the test begin, participants have 15 seconds to select the accounted direction. We recorded the response time and answers of each trial throughout the experiment. At the end of each test, a TLX questionnaire were filled by participant. And for each device, the comfort level, efficiency and willingness of use were rated respectively. Lastly, after all the tests were finished, a cross-device comparison of the same questions was accessed and put into order from the most favorable to the least.
 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=\columnwidth]{Likert_Intuitive}
-\caption{Ratings of intuitiveness for each device.}
-\label{fig:Likert_Intuitive}
-\end{figure}
-
-\begin{figure}[!t]
-\centering
-\includegraphics[width=\columnwidth]{Likert_Comfortable}
-\caption{Ratings of comfort level for each device.}
-\label{fig:Likert_Comfortable}
-\end{figure}
-
-\begin{figure}[!t]
-\centering
-\includegraphics[width=\columnwidth]{Likert_Wanted}
-\caption{Ratings of willingness to use each device.}
-\label{fig:Likert_Wanted}
-\end{figure}
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=\columnwidth]{Likert_Intuitive}
+%\caption{Ratings of intuitiveness for each device.}
+%\label{fig:Likert_Intuitive}
+%\end{figure}
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=\columnwidth]{Likert_Comfortable}
+%\caption{Ratings of comfort level for each device.}
+%\label{fig:Likert_Comfortable}
+%\end{figure}
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=\columnwidth]{Likert_Wanted}
+%\caption{Ratings of willingness to use each device.}
+%\label{fig:Likert_Wanted}
+%\end{figure}
 
 \subsection{Experiment 2 Result}
-After the experiment, we recorded the response time and calculated the mean error rate of each participant with each device. The results are summarized in Figure~\ref{fig:All_ER} and Figure~\ref{fig:All_RT}. The chart shows the calculated results of experiments conducted with subject's own hearing instruments and the rest of the devices we designed. As shown in the chart, when participants are not wearing any of our devices, an average error rate of 64.38\% were presented in the first tests. An analysis of variance showed this difference to be highly significant (F(6,63)=69.632, p=0) The lack of accuracy is significantly higher than when the devices are worn (p\textless.00001). Among all proposed devices, the wristband has the highest mean error rate at 10.63\%. On the other hand, smartwatch and vibration belt have the lowest average in error rate with 0.63\%. Nonetheless, except for wristband, vibro-tactile devices has relatively lower or equal error rates to visual display devices.
+After the experiment, we recorded the response time and calculated the mean error rate of each participant with each device. The results are summarized in Figure~\ref{fig:All_ER} and Figure~\ref{fig:All_RT}. The chart shows the calculated results of experiments conducted with subject's own hearing instruments and the rest of the devices we designed. As shown in the chart, when participants are not wearing any of our devices, an average error rate of 64.38\% were presented in the first tests. An analysis of variance showed this difference to be highly significant (F(6,63)=69.632, p=0). The lack of accuracy is significantly higher than when the devices are worn (p\textless.00001). Among all proposed devices, the wristband has the highest mean error rate at 10.63\%. On the other hand, smartwatch and vibration belt have the lowest average in error rate with 0.63\%. Nonetheless, except for wristband, vibro-tactile devices has relatively lower or equal error rates to visual display devices.
 
 In term of time consumption, vibration hat has the shortest response time in average (2538 ms) among all the vibro-tactile devices. Whereas the wristband had the longest response time at 3740 ms. Smartwatch on the other hand, has the shortest mean response time at 2149 ms, with a close match to the glasses at 2253 ms. The lighting cap in this case consumed a bit longer time with 2716 ms. From the result of the NASA-TLX ratings, vibration wristband had the highest mark on all subscale in NASA-TLX, and smartwatch was the second highest in physical demand (see Figure~\ref{fig:nasa_tlx}). 
 
@@ -381,7 +411,8 @@ To fit the condition in daily life, when smartwatch is worn, we instructed the p
 \label{fig:nasa_tlx}
 \end{figure}
 
-In addition to the workload index estimated by NASA-TLX. The participants assessed 3 statements at the end of each 6 devices about the intuitiveness of recognizing sound direction, the comfort level of the display method, and the willingness to use our devices. These ratings are shown in Figure~\ref{fig:Likert_Intuitive} to ~\ref{fig:Likert_Wanted}. A continuous rating scale from 1 (\textquoteleft strongly disagree\textquoteright) to 5 (\textquoteleft strongly agree\textquoteright) has been used and the participants had to give a score depending on the agreement level of the statement. At the end of the questionnaire, the participants had the opportunity to answer several open questions in regards to improvements and general comments.
+In addition to the workload index estimated by NASA-TLX. The participants assessed 3 statements at the end of each 6 devices about the intuitiveness of recognizing sound direction, the comfort level of the display method, and the willingness to use our devices. %These ratings are shown in Figure~\ref{fig:Likert_Intuitive} to ~\ref{fig:Likert_Wanted}.
+A continuous rating scale from 1 (\textquoteleft strongly disagree\textquoteright) to 5 (\textquoteleft strongly agree\textquoteright) has been used and the participants had to give a score depending on the agreement level of the statement. At the end of the questionnaire, the participants had the opportunity to answer several open questions in regards to improvements and general comments.
 
 The visual devices (smartwatch, glasses, and lighting cap) were evaluated more efficient than the vibration devices (vibration hat, vibration belt, and vibration wristband). However, three participants mentioned that they spent more times to memorize the patterns of lighting cap than others. Smartwatch was rated as the most intuitive device. In contrast, vibration wristband was rated the least. Almost all of the participants reported that it is difficult to identify the vibration signal from the wristband since vibration units are too close to each other. \textit{\textquotedblleft It feels like the whole wrist is shaking,\textquotedblright} stated by two of the participants. Few participants mentioned that recognizing diagonal directions in vibration belt and hat are time-consuming. Since two vibrators are activated alternatively, it requires user to make sure two vibrators are presented in order to determine directions. Two of the participants said that it is hard to distinguish the lights on the lower corners of glasses from the bottom; one due to the reason of \textit{\textquotedblleft too close to each other\textquotedblright}, and other might be caused by nearsightedness.
 
