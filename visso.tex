@@ -67,12 +67,19 @@ breaklinks=true,
 
 \title{Perceptual Assistant for Sound Source Orientation via Visual and Vibratory-coded Devices}
 
+%\numberofauthors{1}
+%\author{ 
+%	\alignauthor Chung-Wei Bee, Tzu-Wen Chang, Chiao-Hui Chang
+%	\\ Ting-Yin Chang Chien, Mike Y. Chen\\
+%	\affaddr{Mobile and HCI Research Lab, National Taiwan University}\\
+%	\email{\{r00922142, r00922002, r02922024, r02922030, mikechen\}@csie.ntu.edu.tw}\\
+%}
 \numberofauthors{1}
 \author{ 
-	\alignauthor Chung-Wei Bee, Tzu-Wen Chang, Chiao-Hui Chang
-	\\ Ting-Yin Chang Chien, Mike Y. Chen\\
-	\affaddr{Mobile and HCI Research Lab, National Taiwan University}\\
-	\email{\{r00922142, r00922002, r02922024, r02922030, mikechen\}@csie.ntu.edu.tw}\\
+	\alignauthor First Author, Second Author, Third Author\\
+	\\Fourth Author, Fifth Author\\
+	\affaddr{Affliation}\\
+	\email{\{firstauthor, secondauthor, thirdauthor, fourthauthor, fifthauthor\}@email.com}\\
 }
 
 % Teaser figure can go here
@@ -85,8 +92,9 @@ breaklinks=true,
 
 \maketitle
 
+
 \begin{abstract}
-People with functional hearing use environmental sound as one of the sources to obtain information and learn what is happening in the surroundings. However, this type of media becomes less beneficial for people who are deaf or with hearing loss. This paper propose several wearable visual and tactile interfaces enable deaf and hearing-impaired people identify in which of the eight cardinal direction is the sound coming from. The study compared various types of encoding scheme being displayed on different accessories including a smartwatch, an eyeglasses, and a baseball cap for visual display devices. As well on the other hand, four vibro-tactile devices designed for three body locations were investigated: a hat, a belt, a wristband, and an armband. Prototype systems and applications were developed to evaluate performance and usability for each device and scheme through experimentations. Ten hearing-impaired subjects with different severity level participated in the experiment. The results showed an over all improvement in sound direction identification at over 60\% in accuracy and half the time less in response period when using visual and tactile assistive devices. Moreover, we reported on the users' preferences of accessories and display methods, and derived suggestions for the design of wearable assistive device.
+People with functional hearing use environmental sounds as one of the sources to obtain information and learn what is happening in the surroundings. However, this type of media becomes less beneficial for people who are deaf or with hearing loss. This paper proposed seven wearable visual and tactile interfaces enable deaf and hearing-impaired people identify in which of the eight cardinal direction is the sound coming from. The study compared 12 types of encoding schemes being displayed on different accessories including a smartwatch, an eyeglasses, and a baseball cap for visual display devices. As well on the other hand, four vibro-tactile devices designed for three body locations were investigated: a hat, a belt, a wristband, and an armband. Prototype systems and applications were developed to evaluate performance and usability for each device and scheme through experimentations. Ten hearing-impaired participants with different severity levels took part in the experiment. The results showed an over-all improvement in sound direction identification at over 60\% in accuracy and twice as fast in response time when using visual and tactile assistive devices. Moreover, we reported on the users' preferences of accessories and display methods, and derived suggestions for the design of wearable assistive devices.
 \end{abstract}
 
 \keywords{
@@ -100,7 +108,7 @@ Environmental sound is one of the sources that contain crucial information which
 
 Congenitally, regular human beings use five traditional senses to perceive information from the living environment; they are sight, hearing, touch, smell, and taste. It is clear that most of the time humans rely on hearing to comprehend the location of the sound based on its time and intensity difference \cite{Wallach1939}. Despite that the remaining sensors cannot obtain acoustic information, it is however possible for human to perceive and recognize directions by using visual or tactile sensing stimuli. This can be seen from other studies that implement visual and tactile interface for various purposes including navigation and directional guidance of sound \cite{Borg,Kim2013,Tessendorf2011,Tsukada2004}.
 
-Although previous studies demonstrated the feasibility of using these interfaces to assist localization of sound, but only few display methods and limited accessories were put to test. Moreover, some of the mentioned study did not carry out the experiments with hearing-impaired participants, and some did not undergo any user experience study. In this paper, we proposed a wider range of use on wearable devices with multiple types of visual and tactile cue display as a sensory aid to provide directional information of an environmental sound. The device aims to help people with hearing loss quickly identify the orientation of sound to create a better perception of the upcoming events. User experience and comprehensive performance evaluation between all designs were conducted.
+Previous studies demonstrated the feasibility of using these interfaces to assist localization of sound for hearing-impaired people, but only few display methods and limited accessories were put to test. Moreover, some of the mentioned study did not carry out the experiments with hearing-impaired participants, and some did not undergo any user experience study. In this paper, we compared a wide range of wearable devices with multiple types of visual and tactile cue display. The device aims to help people with hearing loss quickly identify the orientation of sound to create a better perception of the upcoming events. User experience and comprehensive performance evaluation between all designs were conducted.
 
 We selected six body accessories for the design of seven assistive devices. They are baseball cap, eyeglasses, smartwatch, hat, wristband, and armband. The former three are used in visual display whereas the rest are implemented as vibro-tactile devices. It is noteworthy to mention this study is focused on evaluation of display methods and performance of such assistive devices. Hence, the sound detection was not considered within the design.
 
@@ -123,11 +131,18 @@ Two popular forms of wearable tactile interface are designed on vests and belts.
 
 In conclusion, many related works had been done previously to report the usability and performances of visual and tactile devices. However, most of them are aimed to provide directional information solely for navigation purposes. Others proposed application for helping the deaf improve their acoustic awareness with certain types of device, but they are only applicable on certain parts of the body location. There are no comprehensive comparison and evaluation between all the possible interfaces and display methods of sound source localization for people with hearing loss.
 
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.8\columnwidth]{prototype_visual3}
+\caption{Three types of visual display accessories. (a) LED glasses: It is composed of 28 green LEDs installed around the rim. (b) LED cap: A trident-shaped LED setup is mounted beneath the cap bill. (c) Smartwatch: The watch screen allows the display of higher resolution imageries.}
+\label{fig:visual_devices}
+\end{figure}
+
 \begin{figure*}[!t]
 \centering
-\includegraphics[width=2.15\columnwidth]{visual_pattern_combine}
-\caption{LED glasses pattern schemes.}
-\label{fig:all_scheme}
+\includegraphics[width=2.0\columnwidth]{visual_pattern_combine}
+\caption{Three types of display schemes for each visual device. Each encoded pattern displays eight directions: F for front, B for bakc, R for right, L for left, LF for left-front, LB for left-back, RF for right-front, RB for right-back. (a) LED glasses pattern scheme. (b) LED cap pattern scheme. (c) Smartwatch pattern scheme.}
+\label{fig:visual_scheme}
 \end{figure*}
 
 %\begin{figure*}[!t]
@@ -144,12 +159,6 @@ In conclusion, many related works had been done previously to report the usabili
 %\label{fig:smartwatch_scheme}
 %\end{figure*}
 %
-\begin{figure*}[!t]
-\centering
-\includegraphics[width=2.15\columnwidth]{vibration_pattern_combine2}
-\caption{Vibration devices pattern schemes.}
-\label{fig:vibratin_scheme}
-\end{figure*}
 
 %\section{Choosing of Wearable Visual Accessories}
 %There has been numerous reports shown that congenitally deaf and hard-of-hearing people have enhanced ability to capture more visual activity in the peripheral visual field than normal hearing individuals \cite{Bavelier2000,Dye2009}. In previous studies, experimentation were carried out to compare deaf and hearing group in performance of both their peripheral and central visual attention; participants are asked to click a button in response when a periphery or central stimuli is presented. The deaf individuals exhibit enhanced performance, in terms of faster reaction time and higher accuracy rate, for tasks performed in the visual periphery. And this effect is even more evident when subjects are adolescents \cite{Codina2011a,Codina2011}.
@@ -163,10 +172,10 @@ In conclusion, many related works had been done previously to report the usabili
 
 \section{Prototype and Pattern Design}
 
-Each prototype devices is designed to convey signals in eight directions corresponding to user's position. This was proposed in \cite{Tessendorf2011} to minimizes the perceptual error. A set of visual and vibro-tactile encoding schemes suitable for directional pointing of target angles in the complete 360$^\circ$-range are mapped out and shown in figure \ref{fig:all_scheme}.
+Each prototype devices is designed to convey signals in eight directions corresponding to user's position. This was proposed in \cite{Tessendorf2011} to minimizes the perceptual error. A set of visual and vibro-tactile encoding schemes suitable for directional pointing of target angles in the complete 360$^\circ$-range are mapped out and shown in figure \ref{fig:visual_scheme}.
 
 \subsection{Visual Devices}
-Three types of accessories are used to implement in visual display: glasses, baseball cap, and smartwatch. Due to the shape and size of each device are noticeably different, we designed three types of encoded schemes for each accessory. Except for smartwatch, which uses its native display panel and runs micro App to display sign imagery, glasses and baseball cap are both equipped with multiple yellow-greenish LEDs to indicate directions of sound source. The display patterns for cap and glasses share common design concept but differ in the arrangement of LEDs. 
+Three types of accessories are used to implement in visual display: glasses, baseball cap, and smartwatch. Due to the shape and size of each device are noticeably different, we designed three types of encoded schemes for each accessory. Except for smartwatch, which uses its native display panel and runs micro App to display sign imagery, glasses and baseball cap are both equipped with multiple green LEDs to indicate directions of sound source. The display patterns for cap and glasses share common design concept but differ in the arrangement of LEDs. 
 
 %\begin{figure}[!b]
 %\centering
@@ -189,27 +198,20 @@ Three types of accessories are used to implement in visual display: glasses, bas
 %\label{tab:pattern_chart}
 %\end{table}
 
-\subsubsection{Glasses}
+\subsubsection{LED Glasses}
 To perform complex display patterns, a high density LEDs setup is installed around the glasses frame. We use a regular lensless glasses as the base of the prototype. Small holes were drilled around its frame in order to install LEDs. Electrical wires are connected to the LEDs and strapped around the frame rims and bundled alongside the temples (see Figure~\ref{fig:visual_devices}a). There are 28 LEDs in total (14 on each side of the glasses), and they are evenly distributed across the frame rims in a circular formation. The tip of LEDs are bent inward to point at the user's eyes so the light can be seen easily while emitting.
 
 Three patterns are designed to used on glasses, which are: \textquotedblleft Dots\textquotedblright, \textquotedblleft Array\textquotedblright, and \textquotedblleft Animation\textquotedblright. In the first two patterns, all configured LEDs blink together continuously, whereas in the third configuration the LEDs are turned on in a gradual motion and turned off the same way recursively, similar to an electronic marquee.
 
-In the \textquotedblleft Dots\textquotedblright  setting, the glasses indicates four relative directions (front, back, left, and right) using two or a pair of two LEDs which blink simultaneously; and only one will blink at the corner when indicating diagonal directions. In the second pattern, \textquotedblleft  Array\textquotedblright, a whole set of LEDs are lit up together on each side of the rim representing the respective direction. Diagonal directions are performed by lighting up multiple LEDs on each corner. The last pattern is more complex; front and back are displayed in sliding motion, which will appear to user as two beams of lights running through the rim entering from each side of the glasses and disappearing in the middle. Whilst left and right are presented with lights running from mid-top and mid-bottom rims toward the according side, then disappear at the point where both light beams meet on the side of the glasses. For diagonal direction, both side of the adjacent rims of the corresponding corner lights up in gradual motion toward the corner itself then disappear in same order as appearance.
+In the \textquotedblleft Dots\textquotedblright setting, the glasses indicates four relative directions (front, back, left, and right) using two or a pair of two LEDs which blink simultaneously; and only one will blink at the corner when indicating diagonal directions. In the second pattern, \textquotedblleft  Array\textquotedblright, a whole set of LEDs are lit up together on each side of the rim representing the respective direction. Diagonal directions are performed by lighting up multiple LEDs on each corner. The last pattern is more complex; front and back are displayed in sliding motion, which will appear to user as two beams of lights running through the rim entering from each side of the glasses and disappearing in the middle. Whilst left and right are presented with lights running from mid-top and mid-bottom rims toward the according side, then disappear at the point where both light beams meet on the side of the glasses. For diagonal direction, both side of the adjacent rims of the corresponding corner lights up in gradual motion toward the corner itself then disappear in same order as appearance.
 
 Since the surface of the glasses is flat and vertical, our designed pattern are then displayed in a vertical format. Therefore, it is necessary for user to remap the given directional information from vertical to horizontal space. For instance, if LEDs are blinking on the top rim of the glasses, it means that the sound is coming from the front relative to user. On the other hand, if LEDs blink on the bottom side of the glasses, it indicates the sound is coming from behind. It is considered that some user may think reversely (i.e., top as back, and bottom as front) due to intuition or by custom. We put this aspect in observation with the experiment by asking users whether they felt the need to reverse the setting.
 
-\begin{figure}[!b]
-\centering
-\includegraphics[width=\columnwidth]{prototype_visual3}
-\caption{LED devices.}
-\label{fig:visual_devices}
-\end{figure}
 
+\subsubsection{LED Cap}
+A normal-sized baseball cap is used for the study. It has bill of approximately 17.78 cm (7 in.) x 9.5 cm (3.74 in.) in dimension. The LEDs are pinned through the bill and facing down toward the user. Wires are connected to the LEDs on top of the bill and bundled on the right corner of the bill.
 
-\subsubsection{Cap}
-A normal-sized baseball cap is used for the study. It has bill of approximately 17.78 cm (7 in.) x 9.5 cm (3.74 in.) in dimension. LEDs are installed on the bill of the cap in the shape of a trident tip (see Figure~\ref{fig:visual_devices}b). The LEDs are pinned through the bill and facing down toward the user. Wires are connected to the LEDs on top of the bill and bundled on the right corner of the bill.
-
-Different than the glasses, we are able to design a set of horizontal display patterns since the bill is close to a flat surface. Nonetheless, when it is worn, the area of which human eyes can see using peripheral vision is limited. We propose three display patterns which are \textquotedblleft Dots\textquotedblright, \textquotedblleft Array\textquotedblright, and \textquotedblleft Dots+Array\textquotedblright.
+During the design process, we have came up with different choices of arrangement forms for LEDs instalment on the cap bill. However, the shape of a trident tip (see Figure~\ref{fig:visual_devices}b) was finally chosen as the most suitable. Different than the glasses, we are able to design a set of horizontal display patterns since the bill is close to a flat surface. Nonetheless, when it is worn, the area of which human eyes can see using peripheral vision is limited. We propose three display patterns which are \textquotedblleft Dots\textquotedblright, \textquotedblleft Array\textquotedblright, and \textquotedblleft Dots+Array\textquotedblright.
 
 Three types of display patterns are designed base on the arrangement of the trident-shaped LEDs setup. \textquotedblleft Dots\textquotedblright pattern performs orientational information using only one LED for all directions in the field of view (FOV), i.e. front, left, right, front-left, and front-right. The remaining three directions on the back are displayed by using single LED which jumps backward toward the user's head. The second method, \textquotedblleft Array\textquotedblright, turns on two or more lights to present directions in the FOV. For the backward directions, it is displayed with an array of LEDs lit backward progressively. The last pattern is a combination of previous two; it is composed of single blinking LED for FOV angles and the display patterns of \textquotedblleft Array\textquotedblright for backward directions.
 
@@ -217,6 +219,20 @@ Three types of display patterns are designed base on the arrangement of the trid
 We use \textit{WIMM One} smartwatch manufactured by \textit{WIMM Labs} for wrist-worn prototype (see Figure~\ref{fig:visual_devices}c). The smartwatch runs on a modified Android platform of version 2.1, and it is equipped with a 160 x 160 pixel, 2.5 cm (1.0 in.) square display. For this study, we created a micro App to display images to represent directional information. The difference between smartwatch and other devices is that it uses native display panel to show directions rather than using LEDs. Plus, it uses the build-in vibration feature as part of the notification alert.
 
 Using different designs of imagery, we proposed three types of representation of directions. They are \textquotedblleft Arrow\textquotedblright, \textquotedblleft Compass (small arrow)\textquotedblright, and \textquotedblleft Compass (big arrow)\textquotedblright. The first type displays large arrows to indicate directions, and each arrow occupies the whole display which allow user to see clearly. The second design implements similar concept as a compass; with eight arrows pointing at eight cardinal directions on the panel, one of which is colored in red at a time   to indicate direction. An image of an airplane is put in the middle to show the relative orientation to the colored arrow. The third type is fairly identical to the second except the size of the colored arrow is significantly larger than the rest when directions are displayed.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.8\columnwidth]{prototype_vibro2}
+\caption{Four types of tactile display accessories. (a) Vibro-hat: Eight coin-shaped vibrators are stitched around the hat. (b) Vibro-belt: Cylindrical-shaped vibrators are used to deliver stronger vibration sense. (c) Vibro-wristband: Each vibrators are isolated with a sponge cushion to prevent unwanted shock wave conduction. (d) Vibro-armband: Eight vibrators are rearranged in a hollowed-square grid.}
+\label{fig:vibration_devices}
+\end{figure}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=2.0\columnwidth]{vibration_pattern_combine2}
+\caption{Three types of display schemes for all tactile accessories: vibro-hat, vibro-belt, vibro-wristband, and vibro-armband.}
+\label{fig:vibratin_scheme}
+\end{figure*}
 
 \subsection{Tactile Devices}
 Four accessories are designed to perform experiment: hat, belt, wristband, and armband. Eight vibrators are well-distributed and stitched inside each device. We evaluated a wide range of vibrators and selected coin-shaped vibrators with a diameter of 10 mm (310-103 Vibration Motor 2.7 mm Button Type from Precision Microdrives) that have been developed for vibro-tactile feedback in hand-held applications. In order to clearly distinguish each individual vibrator and prevent misinterpretation, isolating shock waves between each vibrators is fairly important. Since the shape and vibrator arrangement of all tactile devices are similar, all of the designed patterns for tactual sense are suitable for every device. 
@@ -243,24 +259,18 @@ Four accessories are designed to perform experiment: hat, belt, wristband, and a
 %\label{fig:armband}
 %\end{figure}
 
-\subsubsection{Hat}
+\subsubsection{Vibro-hat}
 The hat is compose of soft material which aimed to avoid unwanted propagation of vibration sense through conduction. Eight vibrators are distributed evenly around the hat (see Figure~\ref{fig:vibration_devices}a).
 
-\subsubsection{Belt}
+\subsubsection{Vibro-belt}
 Since every user's waistline is predictively different. We designed a universal-size belt that consists of adjustable clips in which the vibrators are attached and elastic strip fit to majority of the users (see Figure~\ref{fig:vibration_devices}b). Moreover, to ensure the output is strong enough to be sensed through clothings, we use cylindrical-shaped vibrators with diameter of 5 mm, length of 20 mm to perform stronger vibration.
 
-\subsubsection{Wristband}
+\subsubsection{Vibro-wristband}
 The watch function is unconcerned in the study of tactile design. Therefore, we emulate the integration of vibro-tactile interface into a watch band by enhancing a wristband with vibrators which are arranged circularly around user's wrist (see Figure~\ref{fig:vibration_devices}c). We have wired each vibrators loosely on an elastic band and every vibrator is fixed on a foam-rubber cushion to isolate the shock wave from each other.
 
-\subsubsection{Armband}
+\subsubsection{Vibro-armband}
 Different from the previous accessories, this device is made up of a square-shaped vibration array that will be strapped onto the back of user's forearm using a semi-elastic sport bandage (see Figure~\ref{fig:vibration_devices}d). As the design of the wristband, each vibrator is positioned on an isolated foam-rubber to prevent unnecessary conduction. The size of vibration array is 10 cm x 10 cm.
 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=\columnwidth]{prototype_vibro2}
-\caption{Vibration devices.}
-\label{fig:vibration_devices}
-\end{figure}
 
 \subsubsection{Patterns for Tactile Device}
 Thinking of possible patterns that can provide directional information by vibrators, we designed three distinguish patterns: \textquotedblleft Dots\textquotedblright, \textquotedblleft Radar\textquotedblright, and \textquotedblleft Duet\textquotedblright.
@@ -295,8 +305,8 @@ The experiment for tactile devices consist of 12 tests (3 cue types x 4 devices)
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{stage1_Visual_ER&RT}
-\caption{Mean error rate: Visual devices.}
+\includegraphics[width=0.9\columnwidth]{stage1_Visual_ER&RT}
+\caption{Results from experiment 1A showing (a) mean user error rate and (b) mean response time on visual devices.}
 \label{fig:visual_ER&RT}
 \end{figure}
 
@@ -308,11 +318,11 @@ The experiment for tactile devices consist of 12 tests (3 cue types x 4 devices)
 %\end{figure}
 
 \subsection{Experiment 1A Result: Visual Display}
-Unlike tactile devices, the patterns designed between each wearable visual device are irrelevant to each other. Hence the result for each device is discussed separately. Figure~\ref{fig:visual_ER&RT} summarize the detection results of Experiment 1A. Both first and second pattern of smartwatch has gotten 0\% error rate. Although the third pattern has an error rate of 0.63\% higher than others, it is still considerably low. Surprisingly, the response time for third pattern of smartwatch is the shortest (2114 ms); about half a second faster than the others. This difference is confirmed by repeated-measured ANOVA (RMANOVA), F(2.8)=11.563, P\textless0.05. Few participants stated that the distinctive size of the indication arrow makes it easier to identify. And overall, smartwatch has the lowest error rate among all devices whereas in contrast, LED cap obtained the highest.
+Unlike tactile devices, the patterns designed between each wearable visual device are irrelevant to each other. Hence the result for each device is discussed separately. Figure~\ref{fig:visual_ER&RT} summarize the detection results of Experiment 1A. Both first and second pattern of smartwatch has gotten 0\% error rate. Although the third pattern has an error rate of 0.63\% higher than others, it is still considerably low. Surprisingly, the response time for third pattern of smartwatch is the shortest (2.1 s); about half a second faster than the others. This difference is confirmed by repeated-measured ANOVA (RMANOVA), F(2.8)=11.563, P\textless0.05. Few participants stated that the distinctive size of the indication arrow makes it easier to identify. And overall, smartwatch has the lowest error rate among all devices whereas in contrast, LED cap obtained the highest.
 
-The error rate of pattern three for glasses is noticeably higher than the others (9.09\%), but the first pattern is only 0.63\%. However, RMANOVA results show no significant difference in between the three. In terms of detection time, there was a statistically significant difference, F(2,8)=24.470, p\textless0.05. The response time for pattern three exceeded the first by almost 1500 ms. This result match with the statement from two of the participants: \textquotedblleft First pattern of the glasses is sufficient and clear, and the animation used in the third pattern is time consuming and sometimes confusing.\textquotedblright
+The error rate of pattern three for glasses is noticeably higher than the others (9.09\%), but the first pattern is only 0.63\%. However, RMANOVA results show no significant difference in between the three. In terms of detection time, there was a statistically significant difference, F(2,8)=24.470, p\textless0.05. The response time for pattern three exceeded the first by almost 1.5 s. This result match with the statement from two of the participants: \textquotedblleft First pattern of the glasses is sufficient and clear, and the animation used in the third pattern is time consuming and sometimes confusing.\textquotedblright
 
-Error rates of the first and second pattern for cap are the same, both at a rate of 3.75\%. Even though the third is a bit higher (5.63\%) than the rest, the response time for third pattern is however the shortest among the three at 2187 ms. RMANOVA shows a significant difference of response time (F(2,8)=7.006, P\textless0.05) among the three but not error rate. Most participants said the first single blinking pattern is enough and better than the second, and few of them mentioned that the difference between the two methods showing backward directions are unnoticeable. Overall, by the scale of preferences, cap is voted the most preferred whereas glasses are the least. Although error rate of the glasses is a bit lower than cap, half of the participants reported that the blinking LEDs in front of their eyes makes them uncomfortable.
+Error rates of the first and second pattern for cap are the same, both at a rate of 3.75\%. Even though the third is a bit higher (5.63\%) than the rest, the response time for third pattern is however the shortest among the three at 2.2 s. RMANOVA shows a significant difference of response time (F(2,8)=7.006, P\textless0.05) among the three but not error rate. Most participants said the first single blinking pattern is enough and better than the second, and few of them mentioned that the difference between the two methods showing backward directions are unnoticeable. Overall, by the scale of preferences, cap is voted the most preferred whereas glasses are the least. Although error rate of the glasses is a bit lower than cap, half of the participants reported that the blinking LEDs in front of their eyes makes them uncomfortable.
 
 \subsection{Experiment 1A Conclusion}
 The performance of the smartwatch is relatively high in terms of high accuracy. Since the smartwatch use simple imagery to display directional information, it is fairly easy for users to understand at a glance. We also discovered that when using relative positioning and referential sizing of icons to present directional information will raise the efficiency and intuitiveness for users to determine.
@@ -320,13 +330,6 @@ The performance of the smartwatch is relatively high in terms of high accuracy. 
 The glasses have the lowest error rate in one of the patterns which use two or less LEDs and simple blinking to represent directions. As the amount of LED lights increase, the performance and comfort level decreases dramatically. It is caused by two reasons: 1) one is that the brightness level is too high therefore brings burden to the eyes, and another is that 2) the surface of the glasses is too small to display complex patterns, it causes confusion when information are crammed together or overlaps each other. However, if appropriate lighting and position is considered when displaying information near the eyes, the outcome can be efficient. Due to the fact that when information is displayed, the interface can directly and immediately interact with the user's eyes on sight. Users are then unlikely to miss important notification. Also, this process would not require too much physical activity to access the intended information, such as moving the head or raising the arm.
 
 Lastly, the preference of the patterns on the cap shows a common principal as the glasses, \textquotedblleft the simpler the better\textquotedblright. Users tend to prefer single blinking LED than complex and overlapping. In conclusion, for this experiment we have selected three patterns, big-arrow compass, single-double, and light jumper, one from each device to continue with the second experimentation.
-
-\begin{figure}[!t]
-\centering
-\includegraphics[width=\columnwidth]{stage1_Vibro_ER&RT}
-\caption{Mean error rate: Vibro-tactile devices.}
-\label{fig:vibro_ER&RT}
-\end{figure}
 
 %\begin{figure}[!t]
 %\centering
@@ -336,7 +339,14 @@ Lastly, the preference of the patterns on the cap shows a common principal as th
 %\end{figure}
 
 \subsection{Experiment 1B Result: Tactile Display}
-The results from experiment 1A are summarized in Figure~\ref{fig:vibro_ER&RT} showing detection error rates and response times respectively. The result of which is statistically significant (F(11,108)=9.137,p=0). The first pattern has shortest response time on every device (from 2290 ms to 3090 ms). Almost all users said that it is difficult to distinguish patterns when the density of the vibrators is too high, such as wristband or armband. The second pattern has high marks on both error rate (13.7\% to 35\%) and response time (3540 ms to 4480 ms). On contrary, the third pattern has the lowest error rate with a significant difference (p\textless0.05) on every device but however the response time is nearly equal to first pattern, and the users reports the direction can be clearly distinguished. Among all tactile accessories, armband has the highest error rate of 18.8\% to 33.8\% and response time of 3090 to 4600 ms on all patterns. It is evident in the questionnaire that armband is the least preferred overall.
+The results from experiment 1B are summarized in Figure~\ref{fig:vibro_ER&RT} showing detection error rates and response times respectively. The result of which is statistically significant (F(11,108)=9.137,p=0). The first pattern has shortest response time on every device (from 2.3 s to 3.1 s). Almost all users said that it is difficult to distinguish patterns when the density of the vibrators is too high, such as wristband or armband. The second pattern has high marks on both error rate (13.7\% to 35\%) and response time (3.5 m to 4.5 s). On contrary, the third pattern has the lowest error rate with a significant difference (p\textless0.05) on every device but however the response time is nearly equal to first pattern, and the users reports the direction can be clearly distinguished. Among all tactile accessories, armband has the highest error rate of 18.8\% to 33.8\% and response time of 3.1 to 4.6 seconds on all patterns. It is evident in the questionnaire that armband is the least preferred overall.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.9\columnwidth]{stage1_Vibro_ER&RT}
+\caption{Results from experiment 1B showing (a) mean user error rate and (b) mean response time on tactile devices.}
+\label{fig:vibro_ER&RT}
+\end{figure}
 
 \subsection{Experiment 1B Conclusion}
 During the pilot study, we know that it is confusing for user to distinguish the pattern of vibration if there are more than one vibrator activate at the same time. Since the tactile sense will be disturbed when the vibrators' position are near. Our result show the armband and wristband have high error rate due to the high density of vibrators. The reason for this issue is caused by the design limitation of small surface contact area on the wrists and arms. And we also suspect that it was caused by the long time lapse between each cycle. Overall, the third pattern performed better than the second pattern in terms of the error rate and response time. This difference is statically significant (p\textless0.05). In addition, we found that complex patterns will result in skin numb.
@@ -352,17 +362,17 @@ This part of the study was designed to evaluate the usability of our devices and
 \begin{figure}[!t]
 \centering
 \includegraphics[width=0.6\columnwidth]{apparatus3}
-\caption{Test environment setup for experiment 2: Participants is surrounded by 8 speakers, and a laptop is set in front of the subject.}
+\caption{Test environment setup for experiment 2: Participants were surrounded by 8 speakers in a circle of 1.5 meters radius. A computer monitor was placed in front of the participant to show scenario video.}
 \label{fig:speakers}
 \end{figure}
 Six devices were compared in the experiment: glasses, LED cap, smartwatch, vibration hat, belt, and wristband. The armband was taken out of the list due to its low performance and cause of frustration to the users.
 
-The tests were conducted in a sound environment in order to simulate real life scenario. The subject was seated in the center of a circle (diameter 3 m). Eight loudspeakers were placed on the periphery of the circle with a 45$^\circ$ separation to represent the sound source of eight directions (see Figure~\ref{fig:speakers}). During the test, an Arduino was used to choose which speaker to play the sound. A sequence of car horn in traffic were played by one of the eight speaker to simulate an incoming sound from the according direction. To prevent discomfort to participant caused by speaker noise. All loudspeakers are measured to play at the volume of approximately 65$\sim$70 dB. (The range of 60$\sim$70 dB, or decibels sound pressure level is about as loud as normal conversation in one meter distance. Car horns in average produce 110 dB.) At the meanwhile, tactile or visual device will perform the cue pattern corresponded to the direction of the playing speaker. A laptop was set in front of the participant to display the simulation video.
+The tests were conducted in a sound environment in order to simulate real life scenario. The subject was seated in the center of a circle (diameter 3 m). Eight loudspeakers were placed on the periphery of the circle with a 45$^\circ$ separation to represent the sound source of eight directions (see Figure~\ref{fig:speakers}). During the test, an Arduino was used to choose which speaker to play the sound. A sequence of car horn in traffic were played by one of the eight speaker to simulate an incoming sound from the according direction. To prevent discomfort to participant caused by speaker noise. All loudspeakers are measured to play at the volume of approximately 65$\sim$70 dB. (The range of 60$\sim$70 dB, or decibels sound pressure level is about as loud as normal conversation in one meter distance. Car horns in average produce 110 dB.) At the meanwhile, tactile or visual device will perform the cue pattern corresponded to the direction of the playing speaker. A monitor was placed in front of the participant to display the simulation video.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=\columnwidth]{participants}
-\caption{Mean error rate: Visual devices.}
+\caption{List of hearing-impaired participants with respective age, sex, range of hearing loss in dB HL, and the hearing devices they carried daily. *HI: hearing aids; CI: cochlear implants.}
 \label{fig:participants}
 \end{figure}
 
@@ -380,16 +390,16 @@ The severity of a hearing impairment is ranked according to the additional inten
 \end{itemize}
 
 \subsection{Procedure}
-The procedure in experiment 2 is similar to experiment 1, except that participants were asked to look at the video played on the laptop. The test was to simulate a driving scenario which the subjects was told to be either a car driver, a motorcyclist, or a bicyclist as they wish. Subjects determine the direction till received an indication of a directional signal either from the playing speaker or from the wearable device. The experiment was structured into seven tests. The first test investigates subject's ability of identifying sound direction without the help from our device. Participants in the first test wear only hearing aid and/or cochlear implant. Later on, 6 wearable devices were put on to complete the rest of the tests. The order of devices in each experiment was counter balanced.
+The procedure in experiment 2 is similar to experiment 1, except that participants were asked to look at the video played on the monitor. The test was to simulate a driving scenario which the subjects was told to be either a car driver, a motorcyclist, or a bicyclist as they wish. Subjects determine the direction till received an indication of a directional signal either from the playing speaker or from the wearable device. The experiment was structured into seven tests. The first test investigates subject's ability of identifying sound direction without the help from our device. Participants in the first test wear only hearing aid and/or cochlear implant. Later on, 6 wearable devices were put on to complete the rest of the tests. The order of devices in each experiment was counter balanced.
 
 As the previous experiment, 16 trials of randomly generated tasks are presented in each test. Participants are given 90 seconds to memorize the cue patterns. When the test begin, participants have 15 seconds to select the accounted direction. We recorded the response time and answers of each trial throughout the experiment. At the end of each test, a TLX questionnaire were filled by participant. And for each device, the comfort level, efficiency and willingness of use were rated respectively. Lastly, after all the tests were finished, a cross-device comparison of the same questions was accessed and put into order from the most favorable to the least.
 
 \subsection{Experiment 2 Result}
 After the experiment, we recorded the response time and calculated the mean error rate of each participant with each device. The results are summarized in Figure~\ref{fig:stage2_ER&RT}. The chart shows the results of subject's performance with wearing only hearing devices (HI \& CI) and with the help of our devices. As shown in the chart, when participants are not wearing any of our devices, an average error rate of 64.38\% were presented in the first tests. An analysis of variance showed this difference to be highly significant (F(6,63)=69.632, p=0). The lack of accuracy is significantly higher than when the devices are worn (p\textless.00001). Among all proposed devices, the wristband has the highest mean error rate at 10.63\%. On the other hand, smartwatch and vibration belt have the lowest average in error rate with 0.63\%. Nonetheless, except for wristband, vibro-tactile devices has relatively lower or equal error rates to visual display devices.
 
-In term of time consumption, vibration hat has the shortest response time in average (2538 ms) among all the vibro-tactile devices. Whereas the wristband had the longest response time at 3740 ms. Smartwatch on the other hand, has the shortest mean response time at 2149 ms, with a close match to the glasses at 2253 ms. The LED cap in this case consumed a bit longer time with 2716 ms. From the result of the NASA-TLX ratings, vibration wristband had the highest mark on all subscale in NASA-TLX, and smartwatch was the second highest in physical demand (see Figure~\ref{fig:nasa_tlx}). 
+In term of time consumption, vibration hat has the shortest response time in average (2.5 s) among all the vibro-tactile devices. Whereas the wristband had the longest response time at 3.7 s. Smartwatch on the other hand, has the shortest mean response time at 2.1 s, with a close match to the glasses at 2.3 s. The LED cap in this case consumed a bit longer time with 2.7 s. From the result of the NASA-TLX ratings, vibration wristband had the highest mark on all subscale in NASA-TLX, and smartwatch was the second highest in physical demand (see Figure~\ref{fig:nasa_tlx}). 
 
-To fit the condition in daily life, when smartwatch is worn, we instructed the participants to rest their arms before each notification is presented to prevent them from looking at the screen constantly. For this reason, more physical activity is required to obtain information. This argument is confirmed by the NASA-TLX scale, which shows the smartwatch received higher score on physical demand than any other devices. However, this result does not correspond to the mean response time recorded from the tests (2149 ms, the lowest among all). Furthermore, the result stated that the average response time of vibration devices (3009 ms) are longer than those of visual devices (2373 ms) except for the LED cap.
+To fit the condition in daily life, when smartwatch is worn, we instructed the participants to rest their arms before each notification is presented to prevent them from looking at the screen constantly. For this reason, more physical activity is required to obtain information. This argument is confirmed by the NASA-TLX scale, which shows the smartwatch received higher score on physical demand than any other devices. However, this result does not correspond to the mean response time recorded from the tests (2.1 s, the lowest among all). Furthermore, the result stated that the average response time of vibration devices (3.0 s) are longer than those of visual devices (2.4 s) except for the LED cap.
 
 \subsubsection{Questionnaire}
 
@@ -397,28 +407,28 @@ To fit the condition in daily life, when smartwatch is worn, we instructed the p
 \begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{stage2_ER&RT}
-\caption{Mean error rate: All devices.}
+\caption{Results from experiment 2 showing (a) mean user error rate and (b) mean response time in between visual, tactile, and participant's own hearing devices.}
 \label{fig:stage2_ER&RT}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{stage2_TLX}
-\caption{Mean score of NASA Task Load Index for each device.}
+\caption{Mean score of NASA Task Load Index for each device on a 100-point scale. The lower the score is, the lower are the user's burden and demanding effort.}
 \label{fig:nasa_tlx}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{stage2_Likert}
-\caption{User's preference on a five-point Likert scale.}
+\caption{User's preference rating of each device based on intuitiveness, comfort level, and willingness to use on a five-point Likert scale. The higher the score is concerning the three aspects, the more favourable is the device to user.}
 \label{fig:likert_scale}
 \end{figure}
 
-In addition to the workload index estimated by NASA-TLX. The participants assessed 3 statements at the end of each 6 devices about the intuitiveness of recognizing sound direction, the comfort level of the display method, and the willingness to use our devices. %These ratings are shown in Figure~\ref{fig:Likert_Intuitive} to ~\ref{fig:Likert_Wanted}.
+In addition to the workload index estimated by NASA-TLX. The participants assessed 3 statements at the end of each 6 devices about the intuitiveness of recognizing sound direction, the comfort level of the display method, and the willingness to use our devices. These ratings are shown in Figure~\ref{fig:likert_scale}.
 A continuous rating scale from 1 (\textquoteleft strongly disagree\textquoteright) to 5 (\textquoteleft strongly agree\textquoteright) has been used and the participants had to give a score depending on the agreement level of the statement. At the end of the questionnaire, the participants had the opportunity to answer several open questions in regards to improvements and general comments.
 
-The visual devices (smartwatch, glasses, and LED cap) were evaluated more efficient than the vibration devices (vibration hat, vibration belt, and vibration wristband). However, three participants mentioned that they spent more times to memorize the patterns of LED cap than others. Smartwatch was rated as the most intuitive device. In contrast, vibration wristband was rated the least. Almost all of the participants reported that it is difficult to identify the vibration signal from the wristband since vibration units are too close to each other. \textit{\textquotedblleft It feels like the whole wrist is shaking,\textquotedblright} stated by two of the participants. Few participants mentioned that recognizing diagonal directions in vibration belt and hat are time-consuming. Since two vibrators are activated alternatively, it requires user to make sure two vibrators are presented in order to determine directions. Two of the participants said that it is hard to distinguish the lights on the lower corners of glasses from the bottom; one due to the reason of \textit{\textquotedblleft too close to each other\textquotedblright}, and other might be caused by nearsightedness.
+Three participants mentioned that they spent more times to memorize the patterns of LED cap than others. Smartwatch was rated as the most intuitive device. In contrast, vibration wristband was rated the least. Almost all of the participants reported that it is difficult to identify the vibration signal from the wristband since vibration units are too close to each other. \textit{\textquotedblleft It feels like the whole wrist is shaking,\textquotedblright} stated by two of the participants. Few participants mentioned that recognizing diagonal directions in vibration belt and hat are time-consuming. Since two vibrators are activated alternatively, it requires user to make sure two vibrators are presented in order to determine directions. Two of the participants said that it is hard to distinguish the lights on the lower corners of glasses from the bottom; one due to the reason of \textit{\textquotedblleft too close to each other\textquotedblright}, and other might be caused by nearsightedness.
 
 In comparison of comfort level, smartwatch was rated the most comfortable whereas vibration hat was rated as the least. Besides, three participants mentioned that noise and disturbance was caused by vibration to the hearing aids while using vibration hat. Some said that they felt uncomfortable by the sudden shock of vibration. In addition, few of participants stated that the lights on the LED glasses are too bright.
 
@@ -440,7 +450,7 @@ Another question we are interested to find out is how to express different types
 
 % If you want to use smaller typesetting for the reference list,
 % uncomment the following line:
-%\small
+\small
 \bibliographystyle{acm-sigchi}
 \bibliography{visso}
 \end{document}

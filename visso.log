@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  19 SEP 2013 00:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  19 SEP 2013 06:34
 entering extended mode
 **visso.tex
 ("D:\Dropbox\Thesis\CHI Paper\latex\visso.tex"
@@ -371,30 +371,42 @@ LaTeX Info: Redefining \nameref on input line 66.
 ("D:\Dropbox\Thesis\CHI Paper\latex\visso.out")
 ("D:\Dropbox\Thesis\CHI Paper\latex\visso.out")
 \@outlinefile=\write3
-LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 87.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 87.
 
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 94.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
 
-Overfull \hbox (5.79999pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.79999pt too wide) in paragraph at lines 94--94
  [] 
  []
 
@@ -407,40 +419,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Non-PDF special ignored!
 
 ]
+Underfull \vbox (badness 3601) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<visual_pattern_combine.png, id=190, 1053.9375pt x 995.21812pt>
-File: visual_pattern_combine.png Graphic file (type png)
-
-<use visual_pattern_combine.png>
-Package pdftex.def Info: visual_pattern_combine.png used on input line 128.
-(pdftex.def)             Requested size: 524.56061pt x 495.36035pt.
-
-Overfull \hbox (12.41101pt too wide) in paragraph at lines 128--129
- [][] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
-<vibration_pattern_combine2.png, id=192, 1038.88126pt x 325.96782pt>
-File: vibration_pattern_combine2.png Graphic file (type png)
-
-<use vibration_pattern_combine2.png>
-Package pdftex.def Info: vibration_pattern_combine2.png used on input line 149.
-
-(pdftex.def)             Requested size: 524.56061pt x 164.59006pt.
-
-Overfull \hbox (12.41101pt too wide) in paragraph at lines 149--150
- [][] 
- []
-
-<prototype_visual3.jpg, id=196, 974.64125pt x 986.68625pt>
+<prototype_visual3.jpg, id=190, 974.64125pt x 986.68625pt>
 File: prototype_visual3.jpg Graphic file (type jpg)
 
 <use prototype_visual3.jpg>
-Package pdftex.def Info: prototype_visual3.jpg used on input line 203.
-(pdftex.def)             Requested size: 243.98238pt x 246.98712pt.
+Package pdftex.def Info: prototype_visual3.jpg used on input line 136.
+(pdftex.def)             Requested size: 195.18663pt x 197.58969pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+
+<visual_pattern_combine.png, id=191, 1053.9375pt x 995.21812pt>
+File: visual_pattern_combine.png Graphic file (type png)
+
+<use visual_pattern_combine.png>
+Package pdftex.def Info: visual_pattern_combine.png used on input line 143.
+(pdftex.def)             Requested size: 487.96475pt x 460.7823pt.
  [3 <D:/Dropbox/Thesis/CHI Paper/latex/prototype_visual3.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -448,44 +447,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <D:/Dropbox/Thesis/CHI Paper/latex/visual_pattern_combine.png>]
-Underfull \vbox (badness 2799) has occurred while \output is active []
-
-
-<prototype_vibro2.jpg, id=216, 975.645pt x 1320.935pt>
+<prototype_vibro2.jpg, id=211, 975.645pt x 1320.935pt>
 File: prototype_vibro2.jpg Graphic file (type jpg)
 
 <use prototype_vibro2.jpg>
-Package pdftex.def Info: prototype_vibro2.jpg used on input line 260.
-(pdftex.def)             Requested size: 243.98238pt x 330.31355pt.
- [5 <D:/Dropbox/Thesis/CHI Paper/latex/vibration_pattern_combine2.png>]
-Underfull \hbox (badness 2285) in paragraph at lines 280--281
+Package pdftex.def Info: prototype_vibro2.jpg used on input line 225.
+(pdftex.def)             Requested size: 195.18663pt x 264.26294pt.
+
+<vibration_pattern_combine2.png, id=212, 1038.88126pt x 325.96782pt>
+File: vibration_pattern_combine2.png Graphic file (type png)
+
+<use vibration_pattern_combine2.png>
+Package pdftex.def Info: vibration_pattern_combine2.png used on input line 232.
+
+(pdftex.def)             Requested size: 487.96475pt x 153.10541pt.
+ [5 <D:/Dropbox/Thesis/CHI Paper/latex/prototype_vibro2.jpg>]
+Underfull \hbox (badness 2285) in paragraph at lines 290--291
 []\OT1/ptm/m/n/10 The ex-per-i-ment was con-ducted us-ing a mo-bile de-vice
  []
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<stage1_Visual_ER&RT.png, id=225, 710.655pt x 945.5325pt>
+<stage1_Visual_ER&RT.png, id=223, 710.655pt x 945.5325pt>
 File: stage1_Visual_ER&RT.png Graphic file (type png)
 
 <use stage1_Visual_ER&RT.png>
-Package pdftex.def Info: stage1_Visual_ER&RT.png used on input line 298.
-(pdftex.def)             Requested size: 243.98238pt x 324.62202pt.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 311.
+Package pdftex.def Info: stage1_Visual_ER&RT.png used on input line 308.
+(pdftex.def)             Requested size: 219.58264pt x 292.15982pt.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 321.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 311.
- [6 <D:/Dropbox/Thesis/CHI Paper/latex/prototype_vibro2.jpg>]
-<stage1_Vibro_ER&RT.png, id=233, 755.82375pt x 928.97063pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 321.
+ [6 <D:/Dropbox/Thesis/CHI Paper/latex/vibration_pattern_combine2.png>]
+<stage1_Vibro_ER&RT.png, id=235, 755.82375pt x 928.97063pt>
 File: stage1_Vibro_ER&RT.png Graphic file (type png)
 
 <use stage1_Vibro_ER&RT.png>
-Package pdftex.def Info: stage1_Vibro_ER&RT.png used on input line 326.
-(pdftex.def)             Requested size: 243.98238pt x 299.87068pt.
+Package pdftex.def Info: stage1_Vibro_ER&RT.png used on input line 346.
+(pdftex.def)             Requested size: 219.58264pt x 269.87653pt.
  [7 <D:/Dropbox/Thesis/CHI Paper/latex/stage1_Visual_ER&RT.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -494,60 +498,71 @@ Missing character: There is no ™ in font ptmr7t!
 File: apparatus3.png Graphic file (type png)
 
 <use apparatus3.png>
-Package pdftex.def Info: apparatus3.png used on input line 354.
+Package pdftex.def Info: apparatus3.png used on input line 364.
 (pdftex.def)             Requested size: 146.3909pt x 148.34018pt.
  <participants.png, id=245, 649.4664pt x 312.2064pt>
 File: participants.png Graphic file (type png)
 
 <use participants.png>
-Package pdftex.def Info: participants.png used on input line 364.
+Package pdftex.def Info: participants.png used on input line 374.
 (pdftex.def)             Requested size: 243.98238pt x 117.28671pt.
- [8 <D:/Dropbox/Thesis/CHI Paper/latex/stage1_Vibro_ER&RT.png> <D:/Dropbox/Thes
-is/CHI Paper/latex/apparatus3.png>]
-<stage2_ER&RT.png, id=258, 639.8304pt x 542.025pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <D:/Dropbox/Thesis/CHI Paper/latex/stage1_Vibro_ER&RT.png> <D:/Dropbox/Thesi
+s/CHI Paper/latex/apparatus3.png>]
+<stage2_ER&RT.png, id=259, 639.8304pt x 542.025pt>
 File: stage2_ER&RT.png Graphic file (type png)
  <use stage2_ER&RT.png>
-Package pdftex.def Info: stage2_ER&RT.png used on input line 399.
+Package pdftex.def Info: stage2_ER&RT.png used on input line 409.
 (pdftex.def)             Requested size: 243.98238pt x 206.6829pt.
 
-<stage2_TLX.png, id=259, 608.9952pt x 321.8424pt>
+<stage2_TLX.png, id=260, 608.9952pt x 321.8424pt>
 File: stage2_TLX.png Graphic file (type png)
  <use stage2_TLX.png>
-Package pdftex.def Info: stage2_TLX.png used on input line 406.
+Package pdftex.def Info: stage2_TLX.png used on input line 416.
 (pdftex.def)             Requested size: 243.98238pt x 128.94093pt.
 
-<stage2_Likert.png, id=260, 830.6232pt x 344.0052pt>
+<stage2_Likert.png, id=261, 830.6232pt x 344.0052pt>
 File: stage2_Likert.png Graphic file (type png)
  <use stage2_Likert.png>
-Package pdftex.def Info: stage2_Likert.png used on input line 413.
+Package pdftex.def Info: stage2_Likert.png used on input line 423.
 (pdftex.def)             Requested size: 243.98238pt x 101.04497pt.
 
 [9 <D:/Dropbox/Thesis/CHI Paper/latex/participants.png>]
-Underfull \vbox (badness 1688) has occurred while \output is active []
+Underfull \vbox (badness 1107) has occurred while \output is active []
 
  [10 <D:/Dropbox/Thesis/CHI Paper/latex/stage2_ER&RT.png> <D:/Dropbox/Thesis/CH
 I Paper/latex/stage2_TLX.png> <D:/Dropbox/Thesis/CHI Paper/latex/stage2_Likert.
 png>]
 ("D:\Dropbox\Thesis\CHI Paper\latex\visso.bbl")
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
 
-("D:\Dropbox\Thesis\CHI Paper\latex\visso.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
+Overfull \vbox (0.57593pt too high) has occurred while \output is active []
+
+
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+ ("D:\Dropbox\Thesis\CHI Paper\latex\visso.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
 Package rerunfilecheck Info: File `visso.out' has not changed.
-(rerunfilecheck)             Checksum: 7B1C281119A2A80F900C14ED011A7F1F;1994.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
+(rerunfilecheck)             Checksum: 4B2E202871F30AC79746DA8B16D130E3;2026.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
  ) 
 Here is how much of TeX's memory you used:
- 6288 strings out of 493921
- 89771 string characters out of 3147331
- 190922 words of memory out of 3000000
- 9407 multiletter control sequences out of 15000+200000
- 26240 words of font info for 53 fonts, out of 3000000 for 9000
+ 6291 strings out of 493921
+ 89801 string characters out of 3147331
+ 183701 words of memory out of 3000000
+ 9408 multiletter control sequences out of 15000+200000
+ 28454 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,10n,30p,1380b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,30p,1380b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{section*.35} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -577,9 +592,9 @@ w/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhv
 ro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on visso.pdf (11 pages, 1538182 bytes).
+Output written on visso.pdf (11 pages, 1540306 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
+ 332 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
